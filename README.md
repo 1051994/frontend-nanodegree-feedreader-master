@@ -1,16 +1,23 @@
-# Feed Reader Testing
+# Restaurant Review App
+---
+### By Dalia Adel
 
-Project of [Frond-End Developer Nanodegree](https://br.udacity.com/course/front-end-web-developer-nanodegree--nd001-br-advanced) program from @Udacity
+## Introduction
 
-**About the application:**
-```
-Project Overview
-In this project, you receive an incomplete web-based application that reads RSS feeds. 
-Now you have to complete the application using Jasmine and the rules described in the link below.
+This is a basic app of restaurant reviews in New York city. The main page contains a map of each restaurant and a generated list of each one displaying the name and address. Upon clicking 'View details', you are taken to a page with a more detailed map and further information, and of course reviews.
 
-Start:
-To start this application, open the index.html file in your browser.
+This app is accessibility friendly and utilises ARIA. It is built to work on all mobile and tablet devices and is cached for offline use.
 
-```
-Rules from the project here:
-[Rules Feed Reader](https://github.com/udacity/frontend-nanodegree-feedreader/)
+### Installation and running
+
+
+2. In the same folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
+
+In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+
+3. With your server running, visit the site: `http://localhost:8000` and you will see the restaurant review app
+
+## Dependencies:
+
+This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/)
+Original base code provided by Udacity
